@@ -1,6 +1,59 @@
 <!DOCTYPE html>
 <html>
-<h2> Contact Us   </h2>
+
+<head>
+    <title> Contact Us </title>
+    <!-- CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Font family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Roboto Slab', serif;
+        }
+
+        label {
+            color: cadetblue;
+            font-size: x-large;
+        }
+
+        input {
+            width: 400px;
+            height: 25px;
+            border-radius: 10px;
+            border: 1px solid burlywood;
+            color: cadetblue;
+            text-transform: capitalize;
+        }
+
+        input[type="text"] {
+            text-transform: capitalize;
+        }
+
+        input[type="email"] {
+            color: chocolate;
+
+        }
+
+        #submit:hover {
+            background-color: burlywood;
+        }
+
+        button[type="reset"]:hover {
+            color:lawngreen;
+        }
+
+        .links1 {
+            margin-right: 20px;
+        }
+        #tools {
+            color:deeppink;
+        }
+    </style>
+</head>
+<h2> Contact Us </h2>
 
 <body>
     <table>
@@ -12,7 +65,7 @@
 
         <tr>
             <td><label> Mobile No: </label></td>
-            <td><input type="number"  required maxlength="40"></td>
+            <td><input type="number" required maxlength="40"></td>
         </tr>
 
         <tr>
@@ -26,8 +79,24 @@
         </tr>
 
         <tr>
-            <td><button type="submit"> Submit: </button></td>
+            <td><button type="submit" id="submit"> Submit: </button></td>
             <td><button type="reset"> Clear </button></td>
 
 
         </tr>
+    </table>
+    <p id="tools"> Please follow me
+        <a class="links1" href="https://www.linkedin.com/" target="blank"><i class="fa fa-linkedin-square"
+                aria-hidden="true"></i></a>
+        <a class="links1" href="https://www.google.com.co/" target="blank"><i class="fa fa-google"
+                aria-hidden="true"></i></a>
+        <a class="links1" href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"
+                aria-hidden="true"></i></a>
+        <a class="links1" href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook-square"
+                aria-hidden="true"></i></a>
+        <a class="links1" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"
+                aria-hidden="true"></i></a>
+
+    </p>
+
+</body>

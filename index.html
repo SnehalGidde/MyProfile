@@ -3,54 +3,81 @@
 
 <head>
         <title>Index Page</title>
+        <!-- CDN Link -->
         <link rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Google font family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+
+        <style>
+                * {
+                        font-family: 'Sriracha', cursive;
+                }
+
+                header {
+                        background-color: gray;
+                        padding: 15px;
+                        font-size: x-large;
+
+                }
+
+                .Space1 {
+
+                        margin-right: 20px;
+                }
+
+                .links {
+                        margin-right: 20px;
+
+                }
+
+                .links1 {
+                        margin-left: 20px;
+                }
+        </style>
 </head>
 
+
+
 <body>
-        <i class="fa fa-user" aria-hidden="true"></i>
+        <header>
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <span class="Space1">Mohit sharma </span>
+                <i class="fa fa-phone-square" aria-hidden="true"></i>
+                <span class="Space1">1257896322 </span>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span> snehalgidde@gmail.com </span>
+        </header>
+        <nav>
+                <!-- <a href="home.html" target="frame">HOME</a> &nbsp; &nbsp; &nbsp; -->
+                <a class="links Space1" href="techstack.html" target="frame"> TECHNOLOGY STACK </a>
 
-        <body>
-                <header>
+                <a class="links Space1" href="education.html" target="frame"> EDUCATION </a>
+                <a class="links Space1" href="personal.html" target="frame"> PERSONAL </a>
+                <a class="links Space1" href="contacts.html" target="frame"> CONTACT ME </a>
 
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        <span>Mohit sharma </span>&nbsp; &nbsp;
-                        <i class="fa fa-phone-square" aria-hidden="true"></i>
-                        <span> 1257896322 </span> &nbsp; &nbsp;
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <span> snehalgidde@gmail.com </span>
-                        <br>
+        </nav>
 
+        <br>
+        <iframe height="470" width="500" name="frame" src="home.html"></iframe>
 
-                </header>
+        <p> Please follow me
+                <a class="links1" href="https://www.linkedin.com/" target="blank"><i class="fa fa-linkedin-square"
+                                aria-hidden="true"></i></a>
+                <a class="links1" href="https://www.google.com.co/" target="blank"><i class="fa fa-google"
+                                aria-hidden="true"></i></a>
+                <a class="links1" href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"
+                                aria-hidden="true"></i></a>
+                <a class="links1" href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook-square"
+                                aria-hidden="true"></i></a>
+                <a class="links1" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"
+                                aria-hidden="true"></i></a>
 
-                <br>
-                <nav>
-                        <a href="home.html" target="frame">HOME</a> &nbsp; &nbsp; &nbsp;
-                        <a href="techStack.html" target="frame">TECHNOLOGY STACK</a> &nbsp; &nbsp; &nbsp;
-                        <a href="education.html" target="frame"> EDUCATION </a> &nbsp; &nbsp; &nbsp;
-                        <a href="personal.html" target="frame"> PERSONAL </a> &nbsp; &nbsp; &nbsp;
-                        <a href="contactUs.html" target="frame"> CONTACT ME </a>
-                </nav>
-                <br>
-                <iframe height="500" width="500" name="frame" src="home.html">
+        </p>
 
-                </iframe>
-
-                <p> Please follow me
-                        <a href="https://www.linkedin.com/" target="blank"><i class="fa fa-linkedin-square"
-                                        aria-hidden="true"></i></a>
-                        &nbsp; &nbsp; <a href="https://www.google.com.co/" target="blank"><i class="fa fa-google"
-                                        aria-hidden="true"></i></a>
-                        &nbsp; &nbsp; <a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"
-                                        aria-hidden="true"></i></a>
-                        &nbsp; &nbsp; <a href="https://www.facebook.com/" target="blank"><i
-                                        class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                        &nbsp; &nbsp; <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"
-                                        aria-hidden="true"></i></a>
-
-                </p>
-
-        </body>
+</body>
 
 </html>
